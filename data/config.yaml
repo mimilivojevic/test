@@ -1,0 +1,20 @@
+service_name: netico_bms
+token: adsad1131311312112ddsadad
+database:
+  host: localhost
+  password: example_password
+  port: 5432
+  user: example_user
+logging:
+  file: /var/log/example.log
+  level: INFO
+new_var:
+  test: value
+servers:
+  - ip: 192.168.1.1
+    name: server1
+  - ip: 192.168.1.2
+    name: server2
+service:
+  enabled: true
+  name: example_service
